@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 public class DashboardActivity extends AppCompatActivity {
 
-    ImageView LoginButton, imageView2, imageView3, imageView4, imageView6, imageView7, imageView8;
+    ImageView ProfileButton, imageView2, imageView3, imageView4, imageView6, imageView7, imageView8;
     TextView textView13, textView14, textView15, textView17, textView18, textView19;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,7 +18,7 @@ public class DashboardActivity extends AppCompatActivity {
         setTheme(R.style.Theme_UAS);
         setContentView(R.layout.activity_dashboard);
 
-        LoginButton = findViewById(R.id.LoginButton);
+        ProfileButton = findViewById(R.id.ProfileButton);
         imageView2 = findViewById(R.id.imageView2);
         imageView3 = findViewById(R.id.imageView3);
         imageView4 = findViewById(R.id.imageView4);
@@ -32,14 +32,16 @@ public class DashboardActivity extends AppCompatActivity {
         textView18 = findViewById(R.id.textView18);
         textView19 = findViewById(R.id.textView19);
 
-        LoginButton.setOnClickListener(new View.OnClickListener() {
+        ProfileButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), )
+                Intent intent = new Intent(getApplicationContext(), ProfileActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 
-        imageView2.setOnClickListener(new View.OnClickListener() {
+        /*imageView2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), )
@@ -121,6 +123,6 @@ public class DashboardActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), )
             }
-        });
+        });*/
     }
 }
