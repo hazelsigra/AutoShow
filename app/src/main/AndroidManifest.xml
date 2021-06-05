@@ -20,7 +20,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/SplashScreen">
-        <activity android:name=".ProfileActivity"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".RegisterActivity" />
         <activity android:name=".DashboardActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,6 +29,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".DaihatsuActivity"/>
+        <activity android:name=".MercyActivity"/>
+        <activity android:name=".MitsubishiActivity"/>
+        <activity android:name=".ToyotaActivity"/>
+        <activity android:name=".BMWActivity" />
+        <activity android:name=".HondaActivity" />
         <activity android:name=".DescActivity" />
         <activity android:name=".FilterActivity" />
     </application>

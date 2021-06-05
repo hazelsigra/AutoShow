@@ -4,11 +4,12 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class daihatsu extends AppCompatActivity {
+public class ToyotaActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_daihatsu);
+        setTheme(R.style.Theme_UAS);
+        setContentView(R.layout.activity_toyota);
     }
 }

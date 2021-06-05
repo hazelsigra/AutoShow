@@ -41,88 +41,112 @@ public class DashboardActivity extends AppCompatActivity {
             }
         });
 
-        /*imageView2.setOnClickListener(new View.OnClickListener() {
+        imageView2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), )
+                Intent intent = new Intent(getApplicationContext(), MercyActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 
         imageView3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), )
+                Intent intent = new Intent(getApplicationContext(), DaihatsuActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 
         imageView4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), )
+                Intent intent = new Intent(getApplicationContext(), HondaActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 
         imageView6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), )
+                Intent intent = new Intent(getApplicationContext(), MitsubishiActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 
         imageView7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), )
+                Intent intent = new Intent(getApplicationContext(), ToyotaActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 
         imageView8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), )
+                Intent intent = new Intent(getApplicationContext(), BMWActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 
         textView13.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), )
+                Intent intent = new Intent(getApplicationContext(), MercyActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 
         textView14.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), )
+                Intent intent = new Intent(getApplicationContext(), DaihatsuActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 
         textView15.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), )
+                Intent intent = new Intent(getApplicationContext(), HondaActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 
         textView17.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), )
+                Intent intent = new Intent(getApplicationContext(), MitsubishiActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 
         textView18.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), )
+                Intent intent = new Intent(getApplicationContext(), ToyotaActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 
         textView19.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), )
+                Intent intent = new Intent(getApplicationContext(), BMWActivity.class);
+                startActivity(intent);
+                finish();
             }
-        });*/
+        });
     }
 }

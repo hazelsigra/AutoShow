@@ -1,14 +1,15 @@
 package com.example.uas;
 
-import android.os.Bundle;
-
 import androidx.appcompat.app.AppCompatActivity;
 
-public class toyota extends AppCompatActivity {
+import android.os.Bundle;
+
+public class DaihatsuActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_toyota);
+        setTheme(R.style.Theme_UAS);
+        setContentView(R.layout.activity_daihatsu);
     }
 }
