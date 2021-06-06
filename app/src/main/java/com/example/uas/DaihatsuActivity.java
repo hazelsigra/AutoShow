@@ -9,7 +9,7 @@ import android.widget.ImageView;
 
 public class DaihatsuActivity extends AppCompatActivity {
 
-    ImageView imageView16, imageView44, imageView50, imageView46, imageView47, imageView48, imageView49;
+    private ImageView imageView16, imageView44, imageView50, imageView46, imageView47, imageView48, imageView49;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

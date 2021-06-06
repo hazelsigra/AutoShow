@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class BMWActivity extends AppCompatActivity {
 
-    ImageView imageView27, imageView5, imageView6, imageView7, imageView8, imageView9, imageView4;
+    private ImageView imageView27, imageView5, imageView6, imageView7, imageView8, imageView9, imageView4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

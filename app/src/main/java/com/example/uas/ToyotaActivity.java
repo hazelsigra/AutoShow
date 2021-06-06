@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class ToyotaActivity extends AppCompatActivity {
 
-    ImageView imageView26, imageView18, imageView19, imageView20, imageView21, imageView22, imageView23;
+    private ImageView imageView26, imageView18, imageView19, imageView20, imageView21, imageView22, imageView23;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

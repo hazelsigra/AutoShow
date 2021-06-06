@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MercyActivity extends AppCompatActivity {
 
-    ImageView imageView15, imageView30, imageView31, imageView32, imageView33, imageView34, imageView35;
+    private ImageView imageView15, imageView30, imageView31, imageView32, imageView33, imageView34, imageView35;
     
     @Override
     protected void onCreate(Bundle savedInstanceState) {

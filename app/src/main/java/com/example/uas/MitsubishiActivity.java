@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MitsubishiActivity extends AppCompatActivity {
 
-    ImageView imageView25, imageView37, imageView38, imageView39, imageView40, imageView41, imageView42;
+    private ImageView imageView25, imageView37, imageView38, imageView39, imageView40, imageView41, imageView42;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

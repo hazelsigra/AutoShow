@@ -10,8 +10,8 @@ import android.widget.ImageView;
 
 public class ProfileActivity extends AppCompatActivity {
 
-    ImageView imageView28;
-    Button button2;
+    private ImageView imageView28;
+    private Button button2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

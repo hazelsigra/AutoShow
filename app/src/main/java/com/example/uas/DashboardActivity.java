@@ -10,8 +10,8 @@ import android.widget.TextView;
 
 public class DashboardActivity extends AppCompatActivity {
 
-    ImageView ProfileButton, imageView2, imageView3, imageView4, imageView6, imageView7, imageView8;
-    TextView textView13, textView14, textView15, textView17, textView18, textView19;
+    private ImageView ProfileButton, imageView2, imageView3, imageView4, imageView6, imageView7, imageView8;
+    private TextView textView13, textView14, textView15, textView17, textView18, textView19;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

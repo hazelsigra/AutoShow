@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class HondaActivity extends AppCompatActivity {
 
-    ImageView imageView24, imageView3, imageView10, imageView11, imageView12, imageView13, imageView14;
+    private ImageView imageView24, imageView3, imageView10, imageView11, imageView12, imageView13, imageView14;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
