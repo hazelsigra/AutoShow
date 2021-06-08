@@ -33,5 +33,14 @@ public class BMWActivity extends AppCompatActivity {
                 finish();
             }
         });
+
+        imageView5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), SeritigaActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
     }
 }
