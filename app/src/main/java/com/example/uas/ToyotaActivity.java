@@ -33,5 +33,59 @@ public class ToyotaActivity extends AppCompatActivity {
                 finish();
             }
         });
+
+        imageView18.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), SeritigaActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        imageView19.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), SeritigaActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        imageView20.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), SeritigaActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        imageView21.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), SeritigaActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        imageView22.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), SeritigaActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        imageView23.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), SeritigaActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
     }
 }
