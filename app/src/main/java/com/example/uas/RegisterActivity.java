@@ -29,7 +29,7 @@ public class RegisterActivity extends AppCompatActivity {
     private EditText nama, username, password, email;
     private Button button;
     private ProgressBar progressBar;
-    private static String URL = "https://192.168.1.6/ProgTech/UAS/Register.php";
+    private static String URL = "http://192.168.1.6/ProgTech/UAS/Register.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,8 +38,8 @@ public class RegisterActivity extends AppCompatActivity {
         setContentView(R.layout.activity_register);
 
         nama = findViewById(R.id.nama);
-        username = findViewById(R.id.username);
-        password = findViewById(R.id.password);
+        username = findViewById(R.id.usernameLogin);
+        password = findViewById(R.id.passwordLogin);
         email = findViewById(R.id.email);
         button = findViewById(R.id.button);
         progressBar = findViewById(R.id.progressBar);
@@ -47,6 +47,7 @@ public class RegisterActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 Register();
             }
         });
@@ -56,10 +57,10 @@ public class RegisterActivity extends AppCompatActivity {
         progressBar.setVisibility(View.VISIBLE);
         button.setVisibility(View.GONE);
 
-        final String nama = this.nama.getText().toString().trim();
-        final String username = this.username.getText().toString().trim();
-        final String email = this.email.getText().toString().trim();
-        final String password = this.password.getText().toString().trim();
+        String nama = this.nama.getText().toString().trim();
+        String username = this.username.getText().toString().trim();
+        String email = this.email.getText().toString().trim();
+        String password = this.password.getText().toString().trim();
 
         StringRequest request = new StringRequest(Request.Method.POST, URL,
                 new Response.Listener<String>() {
@@ -95,10 +96,10 @@ public class RegisterActivity extends AppCompatActivity {
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {
                 Map<String, String> params = new HashMap<>();
-                params.put("FullName", nama);
-                params.put("Username", username);
-                params.put("Email", email);
-                params.put("Password", password);
+                params.put("nama", nama);
+                params.put("username", username);
+                params.put("email", email);
+                params.put("password", password);
                 return params;
             }
         };

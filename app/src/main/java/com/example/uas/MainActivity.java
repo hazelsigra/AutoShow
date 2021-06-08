@@ -16,6 +16,7 @@ import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
+import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 
@@ -28,11 +29,11 @@ import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
 
-    private EditText usernameLogin, passwordLogin;
+    private EditText username, password;
     private TextView textView22;
     private Button button2;
     private ProgressBar progressBar2;
-    private static String URL = "https://192.168.1.6/ProgTech/UAS/Login.php";
+    private static String URL = "http://192.168.1.6/ProgTech/UAS/Login.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,8 +43,8 @@ public class MainActivity extends AppCompatActivity {
 
         textView22 = findViewById(R.id.textView22);
         button2 = findViewById(R.id.button2);
-        usernameLogin = findViewById(R.id.usernameLogin);
-        passwordLogin = findViewById(R.id.passwordLogin);
+        username = findViewById(R.id.usernameLogin);
+        password = findViewById(R.id.passwordLogin);
         progressBar2 = findViewById(R.id.progressBar2);
 
         textView22.setOnClickListener(new View.OnClickListener() {
@@ -58,20 +59,20 @@ public class MainActivity extends AppCompatActivity {
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String username = usernameLogin.getText().toString().trim();
-                String password = passwordLogin.getText().toString().trim();
+                String Loginusername = username.getText().toString().trim();
+                String Loginpassword = password.getText().toString().trim();
 
-                if (!username.isEmpty() || !password.isEmpty()){
-                    Login(username, password);
+                if (!Loginusername.isEmpty() || !Loginpassword.isEmpty()){
+                    Login(Loginusername, Loginpassword);
                 } else {
-                    usernameLogin.setError("Please insert username");
-                    passwordLogin.setError("Please insert password");
+                    username.setError("Please insert username");
+                    password.setError("Please insert password");
                 }
             }
         });
     }
 
-    private void Login(String usernameLogin, String passwordLogin) {
+    private void Login(String username, String password) {
         progressBar2.setVisibility(View.VISIBLE);
         button2.setVisibility(View.GONE);
 
@@ -79,24 +80,14 @@ public class MainActivity extends AppCompatActivity {
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
-                        try {
-                            JSONObject jsonObject = new JSONObject(response);
-                            String success = jsonObject.getString("success");
-                            JSONArray jsonArray = jsonObject.getJSONArray("login");
-
-                            if (success.equals("1")){
-                                for (int i = 0; i < jsonArray.length(); i++){
-                                    JSONObject object = jsonArray.getJSONObject(i);
-
-                                    Toast.makeText(MainActivity.this, "Login Success.", Toast.LENGTH_SHORT).show();
-                                    progressBar2.setVisibility(View.GONE);
-                                }
-                            }
-                        }catch (JSONException e){
-                            e.printStackTrace();
+                        if(response.contains("1")){
+                            Intent intent = new Intent(getApplicationContext(), DashboardActivity.class);
+                            startActivity(intent);
+                            finish();
+                        }else {
                             progressBar2.setVisibility(View.GONE);
                             button2.setVisibility(View.VISIBLE);
-                            Toast.makeText(MainActivity.this, "Error" + e.toString(), Toast.LENGTH_SHORT).show();
+                            Toast.makeText(MainActivity.this, "Username or Password is Invalid.", Toast.LENGTH_SHORT).show();
                         }
                     }
                 },
@@ -112,8 +103,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {
                 Map<String, String> params = new HashMap<>();
-                params.put("Username", usernameLogin);
-                params.put("Password", passwordLogin);
+                params.put("username", username);
+                params.put("password", password);
                 return params;
             }
         };
