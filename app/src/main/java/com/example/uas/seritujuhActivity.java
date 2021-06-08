@@ -9,16 +9,16 @@ import android.widget.ImageView;
 
 public class seritujuhActivity extends AppCompatActivity {
 
-    private ImageView imageView64;
+    private ImageView imageView90;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_seritujuh);
 
-        imageView64 = findViewById(R.id.imageView64);
+        imageView90 = findViewById(R.id.imageView90);
 
-        imageView64.setOnClickListener(new View.OnClickListener() {
+        imageView90.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), BMWActivity.class);

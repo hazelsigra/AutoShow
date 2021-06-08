@@ -9,16 +9,16 @@ import android.widget.ImageView;
 
 public class YarisActivity extends AppCompatActivity {
 
-    private ImageView imageView58;
+    private ImageView imageView116;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_yaris);
 
-        imageView58 = findViewById(R.id.imageView58);
+        imageView116 = findViewById(R.id.imageView116);
 
-        imageView58.setOnClickListener(new View.OnClickListener() {
+        imageView116.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), ToyotaActivity.class);

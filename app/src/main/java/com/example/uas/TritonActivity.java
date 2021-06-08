@@ -9,16 +9,16 @@ import android.widget.ImageView;
 
 public class TritonActivity extends AppCompatActivity {
 
-    private ImageView imageView78;
+    private ImageView imageView110;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_triton);
 
-        imageView78 = findViewById(R.id.imageView78);
+        imageView110 = findViewById(R.id.imageView110);
 
-        imageView78.setOnClickListener(new View.OnClickListener() {
+        imageView110.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), MitsubishiActivity.class);

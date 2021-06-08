@@ -9,16 +9,16 @@ import android.widget.ImageView;
 
 public class xpanderActivity extends AppCompatActivity {
 
-    private ImageView imageView79;
+    private ImageView imageView108;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_xpander);
 
-        imageView79 = findViewById(R.id.imageView79);
+        imageView108 = findViewById(R.id.imageView108);
 
-        imageView79.setOnClickListener(new View.OnClickListener() {
+        imageView108.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), MitsubishiActivity.class);

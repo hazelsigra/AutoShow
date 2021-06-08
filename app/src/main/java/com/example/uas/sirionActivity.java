@@ -9,16 +9,16 @@ import android.widget.ImageView;
 
 public class sirionActivity extends AppCompatActivity {
 
-    private ImageView imageView84;
+    private ImageView imageView95;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sirion);
 
-        imageView84 = findViewById(R.id.imageView84);
+        imageView95 = findViewById(R.id.imageView95);
 
-        imageView84.setOnClickListener(new View.OnClickListener() {
+        imageView95.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), DaihatsuActivity.class);

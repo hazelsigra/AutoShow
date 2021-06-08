@@ -9,16 +9,16 @@ import android.widget.ImageView;
 
 public class sigraActivity extends AppCompatActivity {
 
-    private ImageView imageView83;
+    private ImageView imageView98;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sigra);
 
-        imageView83 = findViewById(R.id.imageView83);
+        imageView98 = findViewById(R.id.imageView98);
 
-        imageView83.setOnClickListener(new View.OnClickListener() {
+        imageView98.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), DaihatsuActivity.class);

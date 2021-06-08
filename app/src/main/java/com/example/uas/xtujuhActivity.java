@@ -9,16 +9,16 @@ import android.widget.ImageView;
 
 public class xtujuhActivity extends AppCompatActivity {
 
-    private ImageView imageView66;
+    private ImageView imageView88;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_xtujuh);
 
-        imageView66 = findViewById(R.id.imageView66);
+        imageView88 = findViewById(R.id.imageView88);
 
-        imageView66.setOnClickListener(new View.OnClickListener() {
+        imageView88.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), BMWActivity.class);

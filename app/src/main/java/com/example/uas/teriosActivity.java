@@ -9,16 +9,16 @@ import android.widget.ImageView;
 
 public class teriosActivity extends AppCompatActivity {
 
-    private ImageView imageView85;
+    private ImageView imageView94;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_terios);
 
-        imageView85 = findViewById(R.id.imageView85);
+        imageView94 = findViewById(R.id.imageView94);
 
-        imageView85.setOnClickListener(new View.OnClickListener() {
+        imageView94.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), DaihatsuActivity.class);

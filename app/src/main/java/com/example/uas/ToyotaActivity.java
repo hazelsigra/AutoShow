@@ -37,7 +37,7 @@ public class ToyotaActivity extends AppCompatActivity {
         imageView18.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), SeritigaActivity.class);
+                Intent intent = new Intent(getApplicationContext(), RaizeActivity.class);
                 startActivity(intent);
                 finish();
             }
@@ -46,7 +46,7 @@ public class ToyotaActivity extends AppCompatActivity {
         imageView19.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), SeritigaActivity.class);
+                Intent intent = new Intent(getApplicationContext(), AlphardActivity.class);
                 startActivity(intent);
                 finish();
             }
@@ -55,7 +55,7 @@ public class ToyotaActivity extends AppCompatActivity {
         imageView20.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), SeritigaActivity.class);
+                Intent intent = new Intent(getApplicationContext(), CorollaActivity.class);
                 startActivity(intent);
                 finish();
             }
@@ -64,7 +64,7 @@ public class ToyotaActivity extends AppCompatActivity {
         imageView21.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), SeritigaActivity.class);
+                Intent intent = new Intent(getApplicationContext(), FortunerActivity.class);
                 startActivity(intent);
                 finish();
             }
@@ -73,7 +73,7 @@ public class ToyotaActivity extends AppCompatActivity {
         imageView22.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), SeritigaActivity.class);
+                Intent intent = new Intent(getApplicationContext(), InnovaActivity.class);
                 startActivity(intent);
                 finish();
             }
@@ -82,7 +82,7 @@ public class ToyotaActivity extends AppCompatActivity {
         imageView23.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), SeritigaActivity.class);
+                Intent intent = new Intent(getApplicationContext(), YarisActivity.class);
                 startActivity(intent);
                 finish();
             }

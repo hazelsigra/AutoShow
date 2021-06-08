@@ -9,16 +9,16 @@ import android.widget.ImageView;
 
 public class EclipseActivity extends AppCompatActivity {
 
-    private ImageView imageView75;
+    private ImageView imageView105;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_eclipse);
 
-        imageView75 = findViewById(R.id.imageView75);
+        imageView105 = findViewById(R.id.imageView105);
 
-        imageView75.setOnClickListener(new View.OnClickListener() {
+        imageView105.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), MitsubishiActivity.class);

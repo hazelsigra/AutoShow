@@ -9,16 +9,16 @@ import android.widget.ImageView;
 
 public class CLAtigalimaActivity extends AppCompatActivity {
 
-    private ImageView imageView72;
+    private ImageView imageView101;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_c_l_atigalima);
 
-        imageView72 = findViewById(R.id.imageView72);
+        imageView101 = findViewById(R.id.imageView101);
 
-        imageView72.setOnClickListener(new View.OnClickListener() {
+        imageView101.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), MercyActivity.class);

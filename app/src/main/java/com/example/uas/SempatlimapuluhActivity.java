@@ -9,16 +9,16 @@ import android.widget.ImageView;
 
 public class SempatlimapuluhActivity extends AppCompatActivity {
 
-    private ImageView imageView74;
+    private ImageView imageView103;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sempatlimapuluh);
 
-        imageView74 = findViewById(R.id.imageView74);
+        imageView103 = findViewById(R.id.imageView103);
 
-        imageView74.setOnClickListener(new View.OnClickListener() {
+        imageView103.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), MercyActivity.class);

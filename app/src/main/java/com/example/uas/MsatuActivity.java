@@ -9,16 +9,16 @@ import android.widget.ImageView;
 
 public class MsatuActivity extends AppCompatActivity {
 
-    private ImageView imageView68;
+    private ImageView imageView91;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_msatu);
 
-        imageView68 = findViewById(R.id.imageView68);
+        imageView91 = findViewById(R.id.imageView91);
 
-        imageView68.setOnClickListener(new View.OnClickListener() {
+        imageView91.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), BMWActivity.class);

@@ -9,16 +9,16 @@ import android.widget.ImageView;
 
 public class AduaratusActivity extends AppCompatActivity {
 
-    private ImageView imageView69;
+    private ImageView imageView99;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_aduaratus);
 
-        imageView69 = findViewById(R.id.imageView69);
+        imageView99 = findViewById(R.id.imageView99);
 
-        imageView69.setOnClickListener(new View.OnClickListener() {
+        imageView99.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), MercyActivity.class);

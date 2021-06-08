@@ -9,16 +9,16 @@ import android.widget.ImageView;
 
 public class BrioActivity extends AppCompatActivity {
 
-    private ImageView imageView53;
+    private ImageView imageView117;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_brio);
 
-        imageView53 = findViewById(R.id.imageView53);
+        imageView117 = findViewById(R.id.imageView117);
 
-        imageView53.setOnClickListener(new View.OnClickListener() {
+        imageView117.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), HondaActivity.class);

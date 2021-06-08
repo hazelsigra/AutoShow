@@ -9,16 +9,16 @@ import android.widget.ImageView;
 
 public class CorollaActivity extends AppCompatActivity {
 
-    private ImageView imageView62;
+    private ImageView imageView113;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_corolla);
 
-        imageView62 = findViewById(R.id.imageView62);
+        imageView113 = findViewById(R.id.imageView113);
 
-        imageView62.setOnClickListener(new View.OnClickListener() {
+        imageView113.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), ToyotaActivity.class);

@@ -9,16 +9,16 @@ import android.widget.ImageView;
 
 public class CrvActivity extends AppCompatActivity {
 
-    private ImageView imageView54;
+    private ImageView imageView119;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_crv);
 
-        imageView54 = findViewById(R.id.imageView54);
+        imageView119 = findViewById(R.id.imageView119);
 
-        imageView54.setOnClickListener(new View.OnClickListener() {
+        imageView119.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), HondaActivity.class);

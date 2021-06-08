@@ -9,16 +9,16 @@ import android.widget.ImageView;
 
 public class PajeroActivity extends AppCompatActivity {
 
-    private ImageView imageView77;
+    private ImageView imageView107;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pajero);
 
-        imageView77 = findViewById(R.id.imageView77);
+        imageView107 = findViewById(R.id.imageView107);
 
-        imageView77.setOnClickListener(new View.OnClickListener() {
+        imageView107.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), MitsubishiActivity.class);

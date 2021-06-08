@@ -9,16 +9,16 @@ import android.widget.ImageView;
 
 public class CtigaratusActivity extends AppCompatActivity {
 
-    private ImageView imageView73;
+    private ImageView imageView102;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ctigaratus);
 
-        imageView73 = findViewById(R.id.imageView73);
+        imageView102 = findViewById(R.id.imageView102);
 
-        imageView73.setOnClickListener(new View.OnClickListener() {
+        imageView102.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), MercyActivity.class);

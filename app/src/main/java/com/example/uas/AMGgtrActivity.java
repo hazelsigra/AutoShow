@@ -9,16 +9,16 @@ import android.widget.ImageView;
 
 public class AMGgtrActivity extends AppCompatActivity {
 
-    private ImageView imageView70;
+    private ImageView imageView100;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_a_m_ggtr);
 
-        imageView70 = findViewById(R.id.imageView70);
+        imageView100 = findViewById(R.id.imageView100);
 
-        imageView70.setOnClickListener(new View.OnClickListener() {
+        imageView100.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), MercyActivity.class);

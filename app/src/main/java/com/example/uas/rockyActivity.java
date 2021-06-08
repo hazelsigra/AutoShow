@@ -9,16 +9,16 @@ import android.widget.ImageView;
 
 public class rockyActivity extends AppCompatActivity {
 
-    private ImageView imageView82;
+    private ImageView imageView93;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rocky);
 
-        imageView82 = findViewById(R.id.imageView82);
+        imageView93 = findViewById(R.id.imageView93);
 
-        imageView82.setOnClickListener(new View.OnClickListener() {
+        imageView93.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), DaihatsuActivity.class);

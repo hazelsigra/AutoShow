@@ -7,7 +7,8 @@ import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class HondaActivity extends AppCompatActivity {
+public class
+HondaActivity extends AppCompatActivity {
 
     private ImageView imageView24, imageView3, imageView10, imageView11, imageView12, imageView13, imageView14;
 

@@ -9,16 +9,16 @@ import android.widget.ImageView;
 
 public class xeniaActivity extends AppCompatActivity {
 
-    private ImageView imageView86;
+    private ImageView imageView97;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_xenia);
 
-        imageView86 = findViewById(R.id.imageView86);
+        imageView97 = findViewById(R.id.imageView97);
 
-        imageView86.setOnClickListener(new View.OnClickListener() {
+        imageView97.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), DaihatsuActivity.class);

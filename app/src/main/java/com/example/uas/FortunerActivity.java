@@ -9,16 +9,16 @@ import android.widget.ImageView;
 
 public class FortunerActivity extends AppCompatActivity {
 
-    private ImageView imageView61;
+    private ImageView imageView114;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fortuner);
 
-        imageView61 = findViewById(R.id.imageView61);
+        imageView114 = findViewById(R.id.imageView114);
 
-        imageView61.setOnClickListener(new View.OnClickListener() {
+        imageView114.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), ToyotaActivity.class);

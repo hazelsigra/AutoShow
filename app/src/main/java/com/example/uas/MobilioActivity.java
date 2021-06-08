@@ -9,16 +9,16 @@ import android.widget.ImageView;
 
 public class MobilioActivity extends AppCompatActivity {
 
-    private ImageView imageView55;
+    private ImageView imageView121;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mobilio);
 
-        imageView55 = findViewById(R.id.imageView55);
+        imageView121 = findViewById(R.id.imageView121);
 
-        imageView55.setOnClickListener(new View.OnClickListener() {
+        imageView121.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), HondaActivity.class);

@@ -9,16 +9,16 @@ import android.widget.ImageView;
 
 public class AlphardActivity extends AppCompatActivity {
 
-    private ImageView imageView60;
+    private ImageView imageView112;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_alphard);
 
-        imageView60 = findViewById(R.id.imageView60);
+        imageView112 = findViewById(R.id.imageView112);
 
-        imageView60.setOnClickListener(new View.OnClickListener() {
+        imageView112.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), ToyotaActivity.class);

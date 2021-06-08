@@ -9,16 +9,16 @@ import android.widget.ImageView;
 
 public class seridelapanActivity extends AppCompatActivity {
 
-    private ImageView imageView67;
+    private ImageView imageView92;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_seridelapan);
 
-        imageView67 = findViewById(R.id.imageView67);
+        imageView92 = findViewById(R.id.imageView92);
 
-        imageView67.setOnClickListener(new View.OnClickListener() {
+        imageView92.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), BMWActivity.class);
