@@ -33,5 +33,59 @@ public class HondaActivity extends AppCompatActivity {
                 finish();
             }
         });
+
+        imageView3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), BrioActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        imageView10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), CivicActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        imageView11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), CrvActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        imageView12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), HrvActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        imageView13.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MobilioActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        imageView14.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), TypeRActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
     }
 }

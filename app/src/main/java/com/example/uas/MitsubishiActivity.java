@@ -33,5 +33,59 @@ public class MitsubishiActivity extends AppCompatActivity {
                 finish();
             }
         });
+
+        imageView37.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), EclipseActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        imageView38.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), OutlanderActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        imageView39.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), PajeroActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        imageView40.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), xpanderActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        imageView41.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), xpancrossActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        imageView42.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), TritonActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
     }
 }

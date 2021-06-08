@@ -34,5 +34,59 @@ public class MercyActivity extends AppCompatActivity {
             }
         });
 
+        imageView30.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), AduaratusActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        imageView31.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), AMGgtrActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        imageView32.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), CLAtigalimaActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        imageView33.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), CtigaratusActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        imageView34.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), SempatlimapuluhActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        imageView35.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), CempattigaActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
     }
 }

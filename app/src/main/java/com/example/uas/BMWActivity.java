@@ -34,10 +34,55 @@ public class BMWActivity extends AppCompatActivity {
             }
         });
 
+        imageView4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), xtujuhActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
         imageView5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), SeritigaActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        imageView6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MduaActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        imageView7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), seritujuhActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        imageView8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MsatuActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        imageView9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), seridelapanActivity.class);
                 startActivity(intent);
                 finish();
             }
